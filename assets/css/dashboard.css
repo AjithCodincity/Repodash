@@ -1,7 +1,7 @@
 header {
     width: 100%;
     height: 70px;   
-    background-image: linear-gradient(to right, #0a6379 , #4c46c9);
+    background-image: linear-gradient(to right, #7392d5 , #5249cd);
     display: flex;
     flex-direction: row;    
     justify-content: space-between;
@@ -15,7 +15,7 @@ header .logo img{
 }
 header .login-info
 {
-    color: #f4efef;
+    color: #fffdfd;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -23,10 +23,11 @@ header .login-info
     padding-right: 40px;
     min-width: 25%;
 }
-header .login-info .logout-line{
+/*header .login-info .logout-line{
     border-left: 1px solid #101216;
     height: 100%;
-}
+    
+}*/
 header .login-info .welcome .welcome-span{
     color: #8CA0CD;
     font-weight: 500;
@@ -36,6 +37,7 @@ header .login-info .welcome .welcome-span{
 header .login-info .welcome .name{
     font-weight: 700;
     font-size: 16px;
+    
 }
 /*header .login-info .logout{
     display: flex;
@@ -44,43 +46,51 @@ header .login-info .welcome .name{
     flex-direction: row;
     font-size: 12px;
 }*/
-header .login-info .logout i{
+/*header .login-info .logout i{
     font-size: 28px;
     color: #8CA0CD;
     margin-right: 10px;
-}
+}*/
 .container-fluid{
 height: 700px;
 padding: 0px;
 display: flex;
+
+
 }
 .container-fluid .side-menu{
     width: 270px;
     height: 100%;  
+    padding-left: 70px;
+    padding-top: 30px;
+    
      
 }
-.container-fluid .side-menu .list-group .list-group-item 
+/*.container-fluid .side-menu .list-group .list-group-item 
 {
     display: flex;
     align-items: center;
     flex-direction: row;
+    color: #000;
   
-}
-.container-fluid .side-menu .list-group .list-group-item i{
+}*/
+/*.container-fluid .side-menu .list-group .list-group-item i{
     font-size: 28px;
     color: #f7f7f7;
-}
-.container-fluid .side-menu .list-group .list-group-item span{
-    color: #5f5f71;
+}*/
+/*.container-fluid .side-menu .list-group .list-group-item span{
+    color: #131314;
    
     font-weight: 700;
     font-size: 13px;
     padding-left: 15px
-}
+    
+}*/
 
 .container-fluid .dashboard-container{
     width: calc(100% - 250px);
-    height: 100%;  
+    height: 100%; 
+    
 }
 .container-fluid .dashboard-container .action-container{
     height: 70px;
@@ -106,13 +116,15 @@ display: flex;
     color:#E8E8E8;
 }
 .container-fluid .dashboard-container .table-container{
-    background-color: #f2f2f2;
+    background-color: rgb(239, 244, 247);
     height: calc(100% - 70px);
-    padding-right: 35px;
+    margin-right: 30px;
+    margin-left: 0px;
+    padding-right: 10%;
     padding-left: 35px;
     padding-top: 30px;
 }
-.container-fluid .dashboard-container .table-container .card{    
+/*.container-fluid .dashboard-container .table-container .card{    
     height: 150px;   
     padding: 20px;  
     flex-direction: row;
@@ -120,13 +132,15 @@ display: flex;
     color: rgba(5, 1, 1, 0);
     border: none;   
     line-height: 1;
-}
+}*/
 .container-fluid .dashboard-container .table-container .card i{    
     font-size: 7vw;
 }
 .container-fluid .dashboard-container .table-container .card .summary-container{
    width: 80%;
    height: 100%;
+position: relative;
+right: 20px;
 
    
 
@@ -134,15 +148,15 @@ display: flex;
     flex-direction: column;
    align-self: flex-start;
 }
-.container-fluid .dashboard-container .table-container .card .summary-container .percentage{
+/*.container-fluid .dashboard-container .table-container .card .summary-container .percentage{
     
     font-size: 3vw;
     font-weight: bold;
-}
-.container-fluid .dashboard-container .table-container .card .summary-container .summary{
+}*/ 
+/*.container-fluid .dashboard-container .table-container .card .summary-container .summary{
 
-}
-.blue{
+}*/
+/*.blue{
    background-color: #7aa8dc;
 }
 .violet{
@@ -154,11 +168,14 @@ background-color: #d0adce;
 
 .pink{
 background-color: #8fd67b;
-}
-.container-fluid .dashboard-container .table-container .row .table-div{
+}*/
+/*.container-fluid .dashboard-container .table-container .row .table-div{
     padding: 20px;
-    background-color: rgb(162, 168, 205);
+    background-color: rgb(52, 66, 72);
     border-radius: 10px;
     margin-top: 30px;
     height: auto;
+}*/
+body{
+    background-color: #86afb5;
 }
